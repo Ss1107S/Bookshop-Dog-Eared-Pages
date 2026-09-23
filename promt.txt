@@ -1,0 +1,55 @@
+Create a highly detailed top-down view of the bookstore, using the original image as the primary reference. Preserve the architectural character, style, colors, materials, and recognizable features of the original bookstore, but reveal the entire interior from above, as if the roof and ceiling had been completely removed.
+
+The bookstore has a rectangular shape. Inside, there are many tall bookshelves filled with books, creating clear walkways and distinct functional areas.
+
+At the entrance, there is a large floor-to-ceiling glass storefront and entrance area. Near the entrance, place a customer checkout counter. The checkout area also includes a coffee machine and an ice cream machine, both accessible to customers.
+
+Main Reading Area
+
+In the center of the bookstore, create the main reading area. It has an unusual shape resembling a winding snake or a flowing, wavy ribbon. The shape should be organic, smooth, slightly asymmetrical, and not resemble a regular geometric shape.
+
+The reading area should be visually separated from the rest of the store by tall bookshelves, but it must NOT be completely enclosed. It must have two clearly visible and separate openings: one entrance and one exit, allowing customers to comfortably enter and leave the reading area. Both the entrance and exit must be wide and easy to walk through.
+
+Additional bookshelves may be placed inside the reading area. They should fit naturally into the flowing shape of the space, but must never block the entrance, exit, or main walking paths. There must always be comfortable walking space between the bookshelves.
+
+Place exactly 8 comfortable armchairs inside the reading area. Distribute the armchairs naturally throughout the winding space rather than grouping them together. There must be sufficient open space between the chairs. The armchairs must NOT be placed directly next to each other. Each chair should have its own small personal space suitable for comfortable reading.
+
+Place one separate small side table next to each armchair. Each table has a menu on it. Arrange the chairs and tables so that they do not obstruct any walking paths.
+
+Customer Restroom and Staff Utility Room
+
+Include a separate customer restroom and a separate staff utility/storage room.
+
+The restroom and staff room must be fully enclosed rooms with real solid walls. Each room must have its own door. The doors must be clearly visible from above and positioned to provide normal and convenient access to each room.
+
+Do not represent the restroom or staff room as merely a designated area among the bookshelves. They must be actual enclosed rooms, physically separated from the main retail space by walls.
+
+Audiobook Listening Area
+
+In another part of the bookstore, create a small dedicated audiobook listening area.
+
+This area must NOT have walls, partitions, or a separate enclosed room. It should be organically and naturally integrated into the overall bookstore space.
+
+The area contains one comfortable armchair, a small table, a laptop, and a cup of coffee on the table. Arrange these elements so that it is visually clear that this is a dedicated quiet place for listening to audiobooks, while still remaining part of the open bookstore environment.
+
+The audiobook area may be visually defined through furniture placement, nearby bookshelves, a subtle change in the character of the space, or another natural design element, but it must have no walls or enclosing partitions.
+
+Overall Layout and Navigation
+
+The entire layout must be realistic and functional: comfortable customer walkways, logical distances between furniture, and easy access to the checkout counter, restroom, staff room, and all other areas.
+
+The bookshelves should create a clear and understandable system of walkways, allowing someone to mentally follow a route from the entrance to any area of the bookstore.
+
+IMPORTANT: The image should function not merely as a beautiful architectural visualization, but as a detailed NAVIGATION GUIDE AND MAP OF THE BOOKSTORE. A person visiting the store for the first time should be able to easily understand where the entrance, checkout counter, bookshelves, main reading area, entrance and exit of the reading area, restroom, staff room, and audiobook listening area are located.
+
+All major areas must be clearly distinguishable. The main walkways should be wide and easy to follow. Avoid visual clutter, overly dense furniture placement, or elements that overlap or block one another.
+
+Maintain realistic proportions for all rooms, furniture, and objects. Do not add random rooms, additional zones, extra armchairs, or additional workstations. The main reading area must contain exactly 8 armchairs.
+
+Show the entire rectangular bookstore in one image from a true, directly overhead perspective. All functional areas must fit within the frame at the same time.
+
+The visual style should be a highly detailed, realistic top-down architectural visualization that combines realistic interior design with the clarity of a map. Create a warm, cozy atmosphere of an independent bookstore, with realistic materials, furniture, books, and textures.
+
+Do not turn the image into a simple technical blueprint or schematic floor plan. It should look like a realistic view of an actual bookstore from above while remaining extremely clear and easy to use as a navigation map.
+
+Do not add people who could obscure or block any part of the layout. Do not add text labels, room names, arrows, or symbols. The purpose and function of each space should be understandable visually.
