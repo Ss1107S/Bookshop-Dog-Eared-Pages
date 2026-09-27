@@ -17,6 +17,9 @@
                 <a href="file:///C:/Users/PC11/Desktop/Bookshop Dog-Eared Pages/index.html"><h2>Books</h2></a>
             </li>
             <li>
+                <a href="file:///C:/Users/PC11/Desktop/Bookshop Dog-Eared Pages/index.html"><h2>Services and Events</h2></a>
+            </li>
+            <li>
                 <a href="file:///C:/Users/PC11/Desktop/Bookshop Dog-Eared Pages/Order/order.html" class="active"><h2>Order the Book</h2></a>
             </li>
             <li>
@@ -32,41 +35,71 @@
     </header>
 
      
-        <div class="order">
+        <form class="order">
             <div class="order_info">
                 <div class="menucards1">
                     <h1>The form for order the book</h1>
                     <div class="order_button">
-                        <h4>Your first name</h4>
-                        <input type="text" placeholder="Enter your first name">
-                        <h4>Your second name</h4>
-                        <input type="text"placeholder="Enter your second name">
-                        <h4>Your phone number</h4>
-                        <input type="number"placeholder="Enter your phone number">
-                        <h4>Your e-mail adress</h4>
-                        <input type="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your email">
-                        <h4>Date</h4>
-                        <input type="number" placeholder="Enter date, when you want to come">
-                        <h4>Time</h4>
-                        <input type="text" placeholder="Enter time, when you want to come">
-                         <h4>Name of book</h4>
-                        <input type="number" placeholder="Enter name of book">
-                        <h4>Number of book</h4>
-                        <input type="number" placeholder="Enter number of book">
-                        <h4>Some special information</h4>
-                        <input type="text" placeholder="Add some important information">
-                        <h4>Card of the shop</h4>
-                        <input type="number" placeholder="Enter your card of the shop">
+                        <label for="first-name">Your first name</label>
+                        <input id="first-name" type="text" placeholder="Enter your first name">
+                        <label for="second-name">Your second name</label>
+                        <input id="second-name" type="text"placeholder="Enter your second name">
+                        <label for="phone-number">Your phone number</label>
+                        <input id="phone-number" type="tel"placeholder="Enter your phone number">
+                  
+
+                        <label for="e-mail">Your e-mail adress</label>
+                        <input id="e-mail"  type="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your email">
+                        <label for="date">Date</label>
+                        <input id="date" type="date" placeholder="Enter date, when you want to come">
+                        <label for="time">Time</label>
+                        <input id="time" type="time" placeholder="Enter time, when you want to come">
+
+                        <label>What would you like to order?</label>
+
+                        <label>
+                            <input type="radio" name="order-type" value="book">
+                            A book
+                        </label>
+
+                        <label>
+                            <input type="radio" name="order-type" value="first-edition">
+                            First-edition search
+                        </label>
+
+
+                        <label for="book-category">Book category</label>
+
+                        <select id="book-category" name="book-category">
+                            <option value="">Choose a category</option>
+                            <option>Fiction</option>
+                            <option>Non-fiction</option>
+                            <option>Children's books</option>
+                            <option>Rare books</option>
+                            <option>First editions</option>
+                        </select>
+
+
+                        <label for="name-book">Name of book</label>
+                        <input id="name-book" type="text" placeholder="Enter name of book">
+                        <label for="book-number">Number of books</label>
+                        <input id="book-number" type="number" min="1" placeholder="Enter number of books">
+                        <label for="special-info">Special information</label>
+                        <textarea id="special-info" name="special-info"
+                                placeholder="Add any important information"></textarea>
+
+                        <label for="card">Card of the shop</label>
+                        <input id="card" type="number" placeholder="Enter your card of the shop">
                         <div class="text1">
                             <input type="checkbox" style="flex: 0;">
                             <p class="terms">
-                                I accept <a href="#">the terms of use</a> and <a href="#">private policy</a>
+                                I accept <a href="#">the terms of use</a> and <a href="#">privacy policy</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="button">
-                    <button><a href=""><h1>SAFE THE ORDER</h1></a></button>
+                    <button type="submit"><h1>SAVE THE ORDER</h1></button>
                 </div>
             </div>
             <div class="order_header">
@@ -76,7 +109,7 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, ut? Impedit totam saepe repudiandae necessitatibus voluptates modi distinctio quaerat nemo. Consequatur alias, quidem et fugit natus obcaecati animi veritatis necessitatibus!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eaque dolor illum vel fugit quam maxime consequatur iusto, nostrum commodi ab asperiores cumque obcaecati vitae itaque enim nesciunt consectetur modi.</p>
             </div>
-        </div>
+        </form>
 
 
     <article class="down">
