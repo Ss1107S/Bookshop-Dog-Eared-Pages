@@ -6,11 +6,12 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    font-size: 15px;
-    color: rgb(251, 239, 198);
+    font-size: 18px;
+    color: rgb(1, 46, 27);
     background-color: rgb(251, 239, 198);
 }
 
+/*--header--*/
 .list li{
     display: flex;
     flex: 0 1 auto;
@@ -30,6 +31,10 @@ body{
 
 .list li:not(.logo):hover{
     background-color: rgb(1, 46, 27);
+}
+
+.list li:not(.logo) {
+    transition: background-color 0.3s ease;
 }
 
 header .list {
@@ -97,17 +102,25 @@ header a.active {
     color:  rgb(251, 239, 198);
 }
 
-.mainimg{
+/*--home--*/
+.hero{
+    color: rgb(251, 239, 198);
+}
+.homeimg{
     width: 100%;
     position: absolute;
 }
 
-.text{
+.hero_text{
     display: flex;
     flex-direction: column;
     position: relative;
+    padding-left: 10%;
 }
 
+.text{
+    position: relative;
+}
 .firsttext{
     color: rgb(251, 239, 198);
     padding: 0px 30px 0 30px ;
@@ -122,30 +135,51 @@ header a.active {
     margin-right: 50px;
 }
 
-.flex{
+/*--menu--*/
+.menu_info{
+    position: relative;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 8px;
-    margin-left: 0;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
 }
 
-.flex img{
+.menu_info > div{
+    flex: 1 1 0%;
+    padding: 20px 20px;
     border-radius: 10px;
-    flex: 0 0 300px;
-    width: 225px;
-    height: 300px;
-    object-fit: cover;
-    transition: transform 0.3s ease;
 }
 
-.flex img:hover {
-    transform: scale(1.15);
+.menucards{
+    display: flex;
+    width: 100%;
+    gap: 70px;
+    justify-content: center;
 }
 
+.card {
+    border: 3px solid rgb(56, 118, 72);
+    border-radius: 10px;
+    transition: 0.3s ease;
+    height: 280px;
+    width: 280px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.card > div{
+    flex: 1 1 0%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: rgb(56, 118, 72);
+    color: rgb(251, 239, 198);
+}
+
+/*--down--*/
 .down{
     width: 100%;
     background-color:  rgb(56, 118, 72);
@@ -157,5 +191,235 @@ header a.active {
 }
 
 @media (max-width: 600px){
+    .list {
+        flex-direction: column;
+    }
+     .menucards {
+        flex-direction: column;
+    }
+}
 
+/*--order--*/
+.order{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+    
+.order > div{
+    flex: 1 1 0%;
+    background-color: rgb(251, 239, 198);
+}
+
+.order .menucards1{
+    border: 1px solid rgb(56, 118, 72);
+    border-radius: 10px;
+    padding: 0 25px 15px;
+    width: 75%;
+    margin-left: 20%;
+}
+
+.order .terms a{
+    color: rgb(56, 118, 72);
+}
+
+.order_button{
+line-height: 1.6;
+}
+
+.order .button a{
+    color: rgb(1, 46, 27);
+    text-decoration: none;
+}
+
+.order .text1{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1% 0;
+    align-items: center;
+}
+
+.order_button input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(251, 239, 198);
+    border: 1px solid rgb(1, 46, 27);
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 0;
+    width: 100%;
+}
+
+.order_button input:hover{
+    border-color: rgb(56, 118, 72);
+}
+
+.order_info button{
+    color: rgb(1, 46, 27);
+    border: solid 2px rgb(1, 46, 27);
+    background-color: rgb(251, 239, 198);
+    text-align: center;
+    padding: 0 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+
+.order_info button:hover{
+    background-color: rgb(56, 118, 72);
+    cursor: pointer;
+}
+
+.order .order_header{
+    margin: 10% 10%;
+    height: 100%;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.order #book-category{
+    color: rgb(251, 239, 198);
+    background-color:  rgb(56, 118, 72);
+}
+
+.order ::placeholder{
+    color: rgb(251, 239, 198);
+}
+
+.order #special-info{
+    background-color:  rgb(56, 118, 72);
+}
+
+.order .order_button1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(56, 118, 72);
+    color: rgb(251, 239, 198);
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 3%;
+    color: rgb(1, 46, 27);
+    border: solid 2px rgb(1, 46, 27);
+    background-color: rgb(251, 239, 198);
+    text-align: center;
+    font-size: 22px;
+}
+
+.order .order_button1:hover{
+    background-color: rgb(56, 118, 72);
+    cursor: pointer;
+}
+
+/*--map--*/
+.mainimg{
+    width: 100%;
+    position: absolute;
+}
+
+/*--about--*/
+.about_main{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.about_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(56, 118, 72);
+    color: rgb(251, 239, 198);
+    border-radius: 10px;
+    margin-left: 5%;
+    color: rgb(1, 46, 27);
+    border: solid 2px rgb(1, 46, 27);
+    background-color: rgb(251, 239, 198);
+    text-align: center;
+}
+
+.about_button:hover{
+    background-color: rgb(56, 118, 72);
+    cursor: pointer;
+}
+
+.about_button1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(56, 118, 72);
+    color: rgb(251, 239, 198);
+    border-radius: 10px;
+    margin-left: 5%;
+    color: rgb(1, 46, 27);
+    border: solid 2px rgb(1, 46, 27);
+    background-color: rgb(251, 239, 198);
+    text-align: center;
+}
+
+.about_button1:hover{
+    background-color: rgb(56, 118, 72);
+    cursor: pointer;
+}
+
+.about_main h2 {
+    font-size: 28px;
+}
+
+.about_main h3,
+.about_main a {
+    font-size: 22px;
+}
+
+.about_main p,
+.about_main li {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 2em;
+}
+
+/*--contact--*/
+.contact_main{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.contact_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(56, 118, 72);
+    color: rgb(251, 239, 198);
+    border-radius: 10px;
+    margin-left: 5%;
+    color: rgb(1, 46, 27);
+    border: solid 2px rgb(1, 46, 27);
+    background-color: rgb(251, 239, 198);
+    text-align: center;
+}
+
+.contact_button:hover{
+    background-color: rgb(56, 118, 72);
+    cursor: pointer;
+}
+
+.contact_main h2 {
+    font-size: 28px;
+}
+
+.contact_main h3,
+.contact_main a {
+    font-size: 22px;
+}
+
+.contact_main p,
+.contact_main li {
+    font-size: 16px;
+    padding-left: 2em;
 }

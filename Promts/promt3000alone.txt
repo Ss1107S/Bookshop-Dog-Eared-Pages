@@ -1,0 +1,36 @@
+Use uploaded images as PRIMARY references for Dog-Eared Pages, a cozy bookstore. Do NOT create a floor plan or navigation map. Generate SEPARATE photorealistic interior images of individual zones. Every image shows a different part of the SAME physical bookstore.
+
+REFERENCES:
+Use TOP-DOWN STORE PHOTOS for architecture, proportions, layout, colors, materials, furniture, lighting, circulation, and identity. Use the PHOTO OF THE INDIVIDUAL BOOKSHELF as PRIMARY reference for every bookshelf: shape, construction, proportions, materials, finish, color, details. Do not redesign or modernize.
+
+CONSISTENCY:
+All images must look like the same bookstore. Keep architecture, furniture, shelves, proportions, lighting, materials, colors.
+
+CAMERA:
+Use realistic interior photography, eye-level or slightly elevated. Do NOT use top-down view unless requested.
+
+CONCEPT:
+Show pre-loved books, first editions, book clubs, gift wrapping, “Blind date with a book,” and children’s story hour. No people.
+
+BOOKSHELVES:
+Use the shelf photo directly. Keep its design, materials, proportions, finish, color, and details consistent. Include freestanding, circular, rectangular, and stepped arrangements. Never use generic modern shelving.
+
+ENTRANCE:
+Preserve the glass storefront and entrance. Place checkout nearby with coffee and ice cream machines. Keep circulation clear.
+
+READING AREA:
+Recreate the organic, slightly asymmetrical winding space from the overhead reference. It must resemble a snake or flowing ribbon, NOT a rectangle, square, circle, oval, or regular shape. Partially define it with tall shelves, never fully enclosing it.
+It contains EXACTLY 8 armchairs and EXACTLY 8 side tables, one beside each chair. Arrange chairs naturally, never in a row. All stand directly on the floor.
+It has EXACTLY TWO separate wide, unobstructed openings: ONE entrance from a main walkway and ONE separate exit. Keep both visible and clear. Never block openings, paths, chairs, or tables.
+
+RESTROOM & STAFF:
+Include EXACTLY ONE customer restroom and EXACTLY ONE staff utility/storage room. Both have solid walls and separate visible doors. No other enclosed rooms.
+
+AUDIOBOOK:
+Create an OPEN area with no walls. It contains EXACTLY 1 floor-standing armchair, 1 small table, 1 laptop, and 1 cup of coffee. This chair is separate from the 8 reading-area chairs.
+
+IMAGE SET:
+Create ONE SEPARATE IMAGE FOR EACH ZONE. ONE IMAGE = ONE SCENE = ONE CAMERA VIEW. NEVER combine zones or scenes. NEVER create a collage, split-screen, multi-panel image, contact sheet, floor plan, map, diagram, miniature, or dollhouse. Each image contains ONLY ONE continuous bookstore scene. Generate individual images of: entrance/checkout; reading area; first editions; audiobook; tea/book club; gift wrapping/blind-date; children’s story hour; restroom/staff; freestanding shelves.
+
+STYLE:
+Warm photorealistic interior photography. Match reference materials, lighting, scale, textures. No people, text, icons, arrows, symbols. Exact counts.

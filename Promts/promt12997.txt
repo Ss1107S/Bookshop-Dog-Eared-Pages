@@ -1,0 +1,35 @@
+Create a detailed, photorealistic TOP-DOWN 90° view of the rectangular bookstore, using the original image as reference. Preserve architecture, colors, materials, proportions and cozy character. Remove roof/ceiling so the full interior is visible.
+
+The image must look like a real bookstore from directly above and function as a clear NAVIGATION MAP. All spaces and routes must be easy to understand. No people, text, arrows, icons or symbols.
+
+ENTRANCE & CHECKOUT:
+Large floor-to-ceiling glass storefront and entrance. Place a checkout counter nearby with a coffee machine and ice cream machine. Keep this area clear.
+
+MAIN READING AREA:
+Create a central organic, irregular, winding space shaped like a flowing snake/ribbon, not a regular geometric shape. Partially define it with tall bookshelves, but leave it open.
+
+The reading area MUST have exactly TWO separate, wide, unobstructed openings: one entrance connected to a main walkway and one separate exit. Never block them with furniture or shelves.
+
+Place EXACTLY 8 armchairs in the reading area. NEVER MORE THAN 8. No other seating there. Distribute the 8 armchairs naturally with comfortable space between them.
+
+ALL 8 ARMCHAIRS MUST STAND DIRECTLY ON THE FLOOR. They must not float, hover, hang, be embedded or placed on platforms.
+
+Place EXACTLY 1 small side table beside each armchair, 8 tables total. Each table has a menu. Keep furniture away from paths and openings.
+
+RESTROOM & STAFF ROOM:
+Include exactly one customer restroom and one staff utility/storage room. Both must be real enclosed rooms with solid walls and separate visible doors. No other rooms.
+
+AUDIOBOOK AREA:
+Create one separate small OPEN audiobook area. No walls or partitions. It contains exactly 1 floor-standing armchair, 1 small table, 1 laptop and 1 cup of coffee. Define it naturally with furniture or nearby shelves. This armchair is separate from the 8 reading-area armchairs.
+
+FREESTANDING BOOKSHELVES:
+Add several freestanding bookshelf groups in the open retail space, outside all functional zones. Use circular, square/rectangular and stepped/staircase-like arrangements. They must not form rooms or overlap the reading area, its entrance/exit, checkout, restroom, staff room, audiobook area or major walkways. Leave walking space around them.
+
+LAYOUT:
+Realistic proportions, wide walkways and logical circulation from entrance to every area. Nothing may block a route. Everything fits in one frame. No floating objects or unrealistic intersections.
+
+CRITICAL:
+Exactly 9 armchairs exist: 8 in the reading area + 1 in the audiobook area. No other seating. The reading area has exactly 8 armchairs and 8 side tables. All armchairs stand directly on the floor. The reading area has exactly one entrance and one separate exit. Keep every major area visible.
+
+STYLE:
+Warm, cozy, realistic independent bookstore. Detailed books, wood, glass, flooring and furniture. Realistic overhead architectural visualization, not a blueprint; clear as a navigation map.
