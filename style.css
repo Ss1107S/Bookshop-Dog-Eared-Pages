@@ -7,8 +7,17 @@ body{
     padding: 0px;
     font-family: sans-serif;
     font-size: 18px;
-    color: rgb(1, 46, 27);
     background-color: rgb(251, 239, 198);
+}
+/*--typography--*/
+
+.hero_text h1,
+.text h2,
+.card h1,
+.about_main h2,
+.contact_main h2,
+.order_header h3 {
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 /*--header--*/
@@ -106,9 +115,35 @@ header a.active {
 .hero{
     color: rgb(251, 239, 198);
 }
+
+.hero {
+    position: relative;
+}
+
+.homeimg {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(1, 46, 27, 0.25);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hero_text {
+    position: relative;
+    z-index: 2;
+}
+
 .homeimg{
     width: 100%;
     position: absolute;
+    height: 900px;
 }
 
 .hero_text{
@@ -120,19 +155,8 @@ header a.active {
 
 .text{
     position: relative;
-}
-.firsttext{
     color: rgb(251, 239, 198);
-    padding: 0px 30px 0 30px ;
-    font-size: 200%;
-}
-
-.secondtext{
-    color: rgb(84, 42, 13);
-    padding: 20px;
-    font-size: 200%;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding: 0px 10% 0 10% ;
 }
 
 /*--menu--*/
@@ -156,28 +180,30 @@ header a.active {
     gap: 70px;
     justify-content: center;
 }
-
 .card {
-    border: 3px solid rgb(56, 118, 72);
+    border: 2px solid rgb(56, 118, 72);
     border-radius: 10px;
-    transition: 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
     height: 280px;
     width: 280px;
     cursor: pointer;
     align-items: center;
     text-align: center;
+        background-color: rgb(56, 118, 72);
 }
 
-.card > div{
+.card > div {
     flex: 1 1 0%;
-    padding: 20px 20px;
+    padding: 30px 20px;
     border-radius: 10px;
 }
 
 .card:hover {
-    background-color: rgb(56, 118, 72);
+    background-color: rgba(0, 0, 0, 0.1);
     color: rgb(251, 239, 198);
+    transform: translateY(-4px);
 }
+
 
 /*--down--*/
 .down{
@@ -188,15 +214,6 @@ header a.active {
     display: flex;
     align-items: center;
     position: relative;
-}
-
-@media (max-width: 600px){
-    .list {
-        flex-direction: column;
-    }
-     .menucards {
-        flex-direction: column;
-    }
 }
 
 /*--order--*/
@@ -322,10 +339,147 @@ line-height: 1.6;
 }
 
 /*--map--*/
-.mainimg{
+.map_container {
+    position: relative;
     width: 100%;
-    position: absolute;
 }
+
+.mainimg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.map_container > img {
+    width: 100%;
+    display: block;
+}
+
+.map_marker {
+    position: absolute;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(56, 118, 72);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rare_books_marker {
+    top: 47%;
+    left: 17%;
+}
+
+.signature_shelf_marker {
+    top: 18%;
+    left: 33%;
+}
+
+.new_arrivals_marker {
+    top: 43%;
+    left: 8%;
+}
+
+.bestsellers_marker {
+    top: 22%;
+    left: 82%;
+}
+
+.classics_marker {
+    top: 75%;
+    left: 52%;
+}
+
+.hidden_gems_marker {
+    top: 55%;
+    left: 23%;
+}
+
+.art_design_marker {
+    top: 13%;
+    left: 63%;
+}
+.map_popup {
+    position: absolute;
+    display: none;
+    width: 340px;
+    padding: 15px;
+    background: #fff;
+    border: 2px solid rgb(56, 118, 72);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    z-index: 10;
+    border-radius: 10%;
+}
+
+.rare_books_popup {
+    top: 45%;
+    left: 20%;
+}
+
+.signature_shelf_popup {
+    top: 8%;
+    left: 36%;
+}
+
+.new_arrivals_popup {
+    top: 45%;
+    left: 11%;
+}
+
+.bestsellers_popup {
+    top: 30%;
+    left: 74%;
+}
+
+.classics_popup {
+    top: 50%;
+    left: 57%;
+}
+
+.hidden_gems_popup {
+    top: 51%;
+    left: 26%;
+}
+.art_design_popup {
+    top: 17%;
+    left: 51%;
+}
+#rare_books:checked ~ .rare_books_popup {
+    display: block;
+}
+
+#signature_shelf:checked ~ .signature_shelf_popup {
+    display: block;
+}
+
+#new_arrivals:checked ~ .new_arrivals_popup {
+    display: block;
+}
+
+#bestsellers:checked ~ .bestsellers_popup {
+    display: block;
+}
+
+#classics:checked ~ .classics_popup {
+    display: block;
+}
+
+#hidden_gems:checked ~ .hidden_gems_popup {
+    display: block;
+}
+
+#art_design:checked ~ .art_design_popup {
+    display: block;
+}
+
+ .checkbox img{
+    width: 336px;
+    height: 250px;
+    border-radius: 10%;
+ }
 
 /*--about--*/
 .about_main{
@@ -422,4 +576,758 @@ line-height: 1.6;
 .contact_main li {
     font-size: 16px;
     padding-left: 2em;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    /* =========================
+       GENERAL MOBILE SETTINGS
+       ========================= */
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    /* =========================
+       HEADER
+       ========================= */
+
+    header {
+        position: sticky;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        max-width: 100%;
+
+        height: auto;
+        margin: 0;
+        padding: 0;
+
+        overflow: hidden;
+        z-index: 100;
+    }
+
+    header nav {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: flex-start;
+        align-items: center;
+
+        width: 100%;
+        max-width: 100%;
+
+        height: auto;
+        min-height: 0;
+
+        margin: 0;
+        padding: 8px 10px;
+
+        gap: 5px;
+
+        background-color: rgb(56, 118, 72);
+    }
+
+
+    /* LOGO */
+
+    header .list .logo {
+        display: flex;
+
+        flex: 0 0 auto;
+
+        width: 50px;
+        max-width: 50px;
+        height: 50px;
+
+        margin: 0;
+        padding: 3px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .list .logo img {
+        display: block;
+
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+
+    /* NAVIGATION BUTTONS */
+
+    header .list li:not(.logo) {
+        display: flex;
+
+        flex: 0 0 auto;
+
+        width: 100%;
+        max-width: 300px;
+
+        min-height: 36px;
+        height: auto;
+
+        margin: 0;
+        padding: 3px 8px;
+
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 8px;
+    }
+
+    header .list li:not(.logo) a {
+        display: block;
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+        padding: 2px 4px;
+
+        text-align: center;
+        line-height: 1.2;
+
+        white-space: normal;
+    }
+
+    header .list li:not(.logo) a h2 {
+        margin: 3px 0;
+        padding: 0;
+
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+
+    /* SEARCH */
+
+    header .list .search {
+        display: flex;
+
+        flex: 0 0 auto;
+
+        width: 100%;
+        max-width: 300px;
+
+        min-width: 0;
+
+        margin: 0;
+        padding: 3px 8px;
+
+        justify-content: center;
+    }
+
+    header .list .search a {
+        display: block;
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    header .list .search input {
+        display: block;
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+        padding: 7px 10px;
+
+        font-size: 14px;
+
+        box-sizing: border-box;
+    }
+
+
+    /* BASKET */
+
+    header .list .busket {
+        display: flex;
+
+        flex: 0 0 auto;
+
+        width: 45px;
+        max-width: 45px;
+        min-width: 45px;
+
+        height: 35px;
+        min-height: 35px;
+
+        margin: 0;
+        padding: 3px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+
+   /* =========================
+   HERO
+   ========================= */
+
+.hero {
+    position: relative;
+
+    width: 100%;
+    max-width: 100%;
+    height: 350px;
+
+    overflow: hidden;
+}
+
+.homeimg {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    z-index: 0;
+}
+
+.hero_text {
+    position: relative;
+
+    width: 100%;
+    max-width: 100%;
+
+    padding: 70px 8% 0;
+
+    box-sizing: border-box;
+
+    z-index: 1;
+}
+
+.hero_text h1 {
+    font-size: 34px;
+    line-height: 1.1;
+}
+
+.hero_text h3 {
+    font-size: 18px;
+    line-height: 1.4;
+}
+/* =========================
+       CARDS
+       ========================= */
+
+    .menu_info {
+        position: relative;
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+        padding: 15px;
+
+        box-sizing: border-box;
+    }
+
+    .menu_info > div {
+        width: 100%;
+        max-width: 100%;
+
+        padding: 10px 0;
+
+        box-sizing: border-box;
+    }
+
+    .menucards {
+        display: flex;
+
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        align-items: center;
+
+        width: 100%;
+        max-width: 100%;
+
+        gap: 20px;
+
+        box-sizing: border-box;
+    }
+
+.card {
+    flex: 0 0 auto;
+
+    width: 100%;
+    max-width: 320px;
+
+    height: auto;
+    min-height: 180px;
+
+    box-sizing: border-box;
+
+    color: rgb(1, 46, 27);
+}
+
+.card > div {
+    width: 100%;
+    max-width: 100%;
+
+    padding: 15px;
+
+    box-sizing: border-box;
+}
+
+.card h1,
+.card h3 {
+    color: rgb(1, 46, 27);
+}
+
+.card h1 {
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.card h3 {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+/* =========================
+   ORDER PAGE
+   ========================= */
+
+.order {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0;
+    padding: 15px;
+
+    box-sizing: border-box;
+}
+
+.order > div {
+    width: 100%;
+    max-width: 100%;
+
+    flex: none;
+
+    box-sizing: border-box;
+}
+
+
+/* FORM */
+
+.order .order_info {
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.order .menucards1 {
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0;
+    padding: 0 15px 20px;
+
+    box-sizing: border-box;
+}
+
+.order .menucards1 h1 {
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.order .order_button {
+    width: 100%;
+}
+
+.order .order_button input,
+.order .order_button select,
+.order .order_button textarea {
+    width: 100%;
+    max-width: 100%;
+
+    box-sizing: border-box;
+}
+
+.order .radio-group {
+    flex-wrap: wrap;
+}
+
+.order .order_button1 {
+    display: block;
+
+    width: auto;
+
+    margin: 20px auto 30px;
+}
+
+
+/* INFORMATION BELOW THE FORM */
+
+.order .order_header {
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0;
+    padding: 20px 8% 30px;
+
+    box-sizing: border-box;
+}
+
+.order .order_header h3 {
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+.order .order_header p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+    /* =========================
+   TEXT BELOW CARDS
+   ========================= */
+
+.text {
+    position: relative;
+
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0;
+    padding: 20px 8%;
+
+    box-sizing: border-box;
+
+    color: rgb(1, 46, 27);
+}
+
+.text h2,
+.text p {
+    color: rgb(1, 46, 27);
+}
+
+.text h2 {
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+    /* =========================
+       FOOTER
+       ========================= */
+
+    .down {
+        width: 100%;
+        max-width: 100%;
+
+        height: auto;
+
+        padding: 10px 0;
+
+        box-sizing: border-box;
+    }
+
+    .down .list {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        max-width: 100%;
+
+        height: auto;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .down .list li {
+        width: 90%;
+        max-width: 300px;
+
+        margin: 3px auto;
+    }
+}
+
+
+
+
+/* =========================
+   TABLET
+   601px - 1024px
+   ========================= */
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+    * {
+        box-sizing: border-box;
+    }
+/* HEADER */
+
+    header {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    header nav {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        width: 100%;
+        max-width: 100%;
+
+        height: auto;
+        min-height: 80px;
+
+        margin: 0;
+        padding: 10px;
+
+        gap: 8px;
+
+        justify-content: space-between;
+        align-items: center;
+
+        overflow: hidden;
+    }
+
+
+    /* LOGO */
+
+    header .list .logo {
+        flex: 0 0 45px;
+
+        width: 45px;
+        max-width: 45px;
+
+        height: 45px;
+
+        margin: 0;
+        padding: 3px;
+    }
+
+    header .list .logo img {
+        display: block;
+
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+
+    /* NAVIGATION ITEMS */
+
+    header .list li:not(.logo) {
+        flex: 1 1 auto;
+
+        min-width: 0;
+        width: auto;
+        max-width: none;
+
+        height: auto;
+        min-height: 40px;
+
+        margin: 0;
+        padding: 4px 6px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .list li:not(.logo) a {
+        display: block;
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+        padding: 2px;
+
+        text-align: center;
+
+        line-height: 1.1;
+    }
+
+    header .list li:not(.logo) a h2 {
+        margin: 2px 0;
+        padding: 0;
+
+        font-size: 13px;
+        line-height: 1.2;
+    }
+
+
+    /* SEARCH */
+
+    header .list .search {
+        flex: 1 1 120px;
+
+        min-width: 80px;
+        max-width: 150px;
+
+        margin: 0;
+        padding: 4px;
+    }
+
+    header .list .search a {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .list .search input {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+        padding: 6px 7px;
+
+        font-size: 12px;
+    }
+
+
+    /* BASKET */
+
+    header .list .busket {
+        flex: 0 0 35px;
+
+        width: 35px;
+        max-width: 35px;
+        min-width: 35px;
+
+        height: 35px;
+
+        margin: 0;
+        padding: 3px;
+    }
+
+
+
+    /* MAIN CONTENT */
+
+    main {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* HOME HERO */
+
+    .hero {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .homeimg {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    /* HOME CARDS */
+
+    .menucards {
+        width: 100%;
+        max-width: 100%;
+
+        gap: 20px;
+    }
+
+    .card {
+        min-width: 0;
+        max-width: 280px;
+    }
+
+
+    /* FOOTER */
+
+    .down {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .down .list {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+        padding: 10px;
+
+        box-sizing: border-box;
+    }
 }
