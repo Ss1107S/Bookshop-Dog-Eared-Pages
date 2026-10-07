@@ -402,6 +402,11 @@ line-height: 1.6;
     top: 13%;
     left: 63%;
 }
+
+.limited_editions_marker {
+    top: 5%;
+    left: 78%;
+}
 .map_popup {
     position: absolute;
     display: none;
@@ -447,6 +452,12 @@ line-height: 1.6;
     top: 17%;
     left: 51%;
 }
+
+.limited_editions_popup {
+    top: 8%;
+    left: 55%;
+}
+
 #rare_books:checked ~ .rare_books_popup {
     display: block;
 }
@@ -475,6 +486,9 @@ line-height: 1.6;
     display: block;
 }
 
+#limited_editions:checked ~ .limited_editions_popup {
+    display: block;
+}
  .checkbox img{
     width: 336px;
     height: 250px;
