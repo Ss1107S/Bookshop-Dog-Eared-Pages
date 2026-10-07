@@ -407,6 +407,26 @@ line-height: 1.6;
     top: 5%;
     left: 78%;
 }
+
+.new_noteworthy_marker {
+    top: 35%;
+    left: 95%;
+}
+
+.books_for_collectors_marker {
+    top: 70%;
+    left: 83%;
+}
+
+.ice_cream_vending_machine_marker {
+    top: 10%;
+    left: 19%;
+}
+
+.coffee_vending_machine_marker {
+    top: 15%;
+    left: 9%;
+}
 .map_popup {
     position: absolute;
     display: none;
@@ -458,6 +478,25 @@ line-height: 1.6;
     left: 55%;
 }
 
+.new_noteworthy_popup {
+    top: 39%;
+    left: 72%;
+}
+.books_for_collectors_popup {
+    top: 40%;
+    left: 63%;
+}
+
+.ice_cream_vending_machine_popup {
+    top: 10%;
+    left: 23%;
+}
+
+.coffee_vending_machine_popup {
+    top: 6%;
+    left: 12%;
+}
+
 #rare_books:checked ~ .rare_books_popup {
     display: block;
 }
@@ -489,6 +528,22 @@ line-height: 1.6;
 #limited_editions:checked ~ .limited_editions_popup {
     display: block;
 }
+
+#new_noteworthy:checked ~ .new_noteworthy_popup {
+    display: block;
+}
+#books_for_collectors:checked ~ .books_for_collectors_popup {
+    display: block;
+}
+
+#ice_cream_vending_machine:checked ~ .ice_cream_vending_machine_popup {
+    display: block;
+}
+
+#coffee_vending_machine:checked ~ .coffee_vending_machine_popup {
+    display: block;
+}
+
  .checkbox img{
     width: 336px;
     height: 250px;
