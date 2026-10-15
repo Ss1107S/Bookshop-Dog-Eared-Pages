@@ -1,0 +1,41 @@
+Create sophisticated, visually intricate fictional book covers for a premium online bookstore. Each should look professionally art-directed by an award-winning illustrator. Avoid generic AI aesthetics, simplistic layouts, stock imagery, and repetition.
+
+BOOK DETAILS Each cover must include a unique fictional title, fictional author's name, and readable genre label in English. Use genres such as Fantasy, Dark Academia, Mystery, Psychological Thriller, Romance, Science Fiction, Gothic Fiction, Historical Fiction, and Literary Fiction. Ensure correct spelling and hierarchy: title first, author second, genre third.
+
+ART DIRECTION Create elaborate compositions rich in detail, depth, and originality. Combine intricate illustrations, symbolic imagery, surreal scenes, ornate frames, botanical patterns, celestial motifs, antique engravings, architecture, geometric shapes, and mixed-media collage. Add hidden details, visual metaphors, and narrative clues hinting at each book's fictional world.
+
+Use fine linework, hand-drawn elements, painterly textures, layered illustrations, distressed paper, translucent overlays, decorative borders, and intricate ornamentation. Build depth with overlapping elements, atmospheric perspective, dramatic lighting, rich shadows, and nuanced color transitions. Avoid flat or minimal designs.
+
+TYPOGRAPHY Integrate typography into the artwork. Use expressive serif fonts, custom lettering, elegant calligraphy, experimental layouts, and sophisticated text placement. Add embossed lettering, metallic foil, ornamental details, or selective gloss where appropriate. Keep text legible and balanced.
+
+GENRE STYLES Fantasy: mythical symbols, enchanted landscapes, magical diagrams, mysterious artifacts. Mystery and thrillers: cryptic symbols, fragmented imagery, hidden clues, dramatic architecture. Science fiction: cosmic landscapes, futuristic structures, intricate technology. Romance: expressive compositions, delicate illustrations, rich textures, refined color contrasts. Gothic and historical fiction: antique engravings, classical architecture, ornate frames, atmospheric details.
+
+VISUAL VARIETY Give each cover a distinct composition, palette, illustration style, and typography. Explore unexpected combinations while maintaining quality.
+
+TECHNICAL REQUIREMENTS Use a vertical 2:3 aspect ratio. Show one complete, standalone, front-facing cover per image, without perspective distortion or external scenery. All text must be correctly spelled, readable, and in English. Use fictional titles and authors only. Exclude real publishing logos, watermarks, prices, promotional stickers, bookshelves, hands, 3D mockups, and interface elements.
+
+FINAL RESULT Create premium, collectible-looking covers with intricate artwork, sophisticated typography, strong visual storytelling, and professional editorial quality. Each should stand out in an online bookstore. Prioritize originality, complexity, atmosphere, and refined design.
+
+
+
+
+Generate a collection of fictional book cover images for an online bookstore catalog. Each book cover must look professional, visually appealing, and realistic, as if it were a real published book available for purchase.
+
+Include the following information on every cover:
+
+Title: A unique, clearly readable book title in English.
+Author: A fictional author's name in English.
+Genre: A clearly indicated genre, such as Fantasy, Mystery, Thriller, Romance, Science Fiction, or Historical Fiction.
+
+Design requirements:
+
+Use diverse cover designs, color palettes, typography, and illustrations that match each book's genre and story.
+Make the covers look like authentic commercial book covers with polished typography and high-quality artwork.
+Ensure all text is spelled correctly, legible, and integrated naturally into the cover design.
+Use fictional titles and author names only.
+Maintain a consistent visual quality across the collection while giving each book a distinct identity.
+Use a vertical book-cover aspect ratio (2:3).
+Display each book as a separate, complete cover, suitable for use as a product image in an online bookstore catalog.
+Do not include mockups, bookshelves, hands, backgrounds outside the covers, promotional banners, prices, or additional UI elements.
+
+The final result should be a cohesive collection of fictional books ready to be displayed in an online bookstore.
