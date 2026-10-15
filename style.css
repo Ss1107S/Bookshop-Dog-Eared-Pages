@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body{
@@ -8,11 +9,12 @@ body{
     font-family: sans-serif;
     font-size: 18px;
     background-color: rgb(251, 239, 198);
+    overflow-x: hidden;
 }
 /*--typography--*/
 
 .hero_text h1,
-.text h2,
+.hero_text1 h2,
 .card h1,
 .about_main h2,
 .contact_main h2,
@@ -90,7 +92,7 @@ header a.active {
     padding: 5px 10px;
     border-radius: 10px;
     background-color: rgb(251, 239, 198);
-    border: 1px solid  rgb(56, 118, 72) ;
+    border: 1px solid  rgb(56, 118, 72);
     box-sizing: border-box;
     outline: none;
     margin-top: 0;
@@ -111,7 +113,7 @@ header a.active {
     color:  rgb(251, 239, 198);
 }
 
-/*--home--*/
+/*--index/home--*/
 .hero{
     color: rgb(251, 239, 198);
 }
@@ -153,10 +155,18 @@ header a.active {
     padding-left: 10%;
 }
 
-.text{
+.hero_text1 {
     position: relative;
     color: rgb(251, 239, 198);
-    padding: 0px 10% 0 10% ;
+    padding: 0 10%;
+}
+.hero_text1 p{
+    padding-left: 8%;
+}
+
+.hero_text1 h2,
+.hero_text1 p {
+    color: inherit;
 }
 
 /*--menu--*/
@@ -187,13 +197,12 @@ header a.active {
     height: 280px;
     width: 280px;
     cursor: pointer;
-    align-items: center;
     text-align: center;
-        background-color: rgb(56, 118, 72);
+    background-color: rgb(56, 118, 72);
 }
 
 .card > div {
-    flex: 1 1 0%;
+
     padding: 30px 20px;
     border-radius: 10px;
 }
@@ -203,7 +212,6 @@ header a.active {
     color: rgb(251, 239, 198);
     transform: translateY(-4px);
 }
-
 
 /*--down--*/
 .down{
@@ -215,6 +223,190 @@ header a.active {
     align-items: center;
     position: relative;
 }
+/*--books--*/
+.books_text h2{
+    color: rgb(1, 46, 27);
+    padding-left: 5%;
+}
+.books_text p{
+    padding-left: 8%;
+}
+.new_info{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+.newcards > div{
+    display: flex;
+    flex: 0 0 calc((100% - 100px) / 7);
+    background-color:  rgb(251, 239, 198);
+    padding-top: 1%;
+    border-radius: 10px;
+    height: 570px;
+    flex-direction: column;
+}
+
+.newcards{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.newcards h2 {
+    text-align: center;
+}
+.newcards p{
+    margin: 0;
+}
+
+.newcards img{
+    height: 210px;
+    width: 140px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.newcards img:hover {
+    transform: scale(1.05);
+}
+
+.newcards button{
+    color: rgb(1, 46, 27);
+    border: solid 3px rgb(1, 46, 27);
+    text-align: center;
+    background-color:  rgb(251, 239, 198);
+    border-radius: 10px;
+    margin-top: auto;
+}
+
+.newcards button:hover{
+    background-color: rgb(56, 118, 72);
+    cursor: pointer;
+}
+
+ .services-intro h2{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ .services-intro h3{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ .services-intro p{
+    padding-left: 8%;
+    padding-right: 5%;
+ }
+
+ .services-intro li{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ .events h2{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ .events h3{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ .events p{
+    padding-left: 8%;
+    padding-right: 5%;
+ }
+
+ .events li{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ .shop-info h2{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ .shop-info h3{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ .shop-info p{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ .shop-info li{
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+
+.services-list {
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+.services-list h2 {
+    margin-bottom: 20px;
+    color: rgb(56, 118, 72);
+}
+
+.services-list table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fffaf3;
+    color: rgb(56, 118, 72);
+    border: 1px solid #d8c3a5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.services-list thead {
+    background-color: rgb(56, 118, 72);
+    color: #fffaf3;
+}
+
+.services-list th {
+    padding: 16px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.services-list td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #e5d7c5;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.services-list tbody tr:nth-child(even) {
+    background-color: #f3e8d8;
+}
+
+.services-list tbody tr {
+    transition: background-color 0.25s ease;
+}
+
+.services-list tbody tr:hover {
+    background-color: #ead5b9;
+}
+
+.services-list tbody tr:last-child td {
+    border-bottom: none;
+}
+
 
 /*--order--*/
 .order{
@@ -348,6 +540,7 @@ line-height: 1.6;
     display: block;
     width: 100%;
     height: auto;
+    margin-top: 2%;
 }
 
 .map_container > img {
@@ -368,8 +561,21 @@ line-height: 1.6;
     align-items: center;
 }
 
+.map_intro h2{
+    padding-left: 5%;
+}
+
+.map_intro h1{
+    margin: 0;
+}
+
+.map_intro p{
+    margin: 0;
+    padding-left: 8%;
+}
+
 .rare_books_marker {
-    top: 47%;
+    top: 57%;
     left: 17%;
 }
 
@@ -379,7 +585,7 @@ line-height: 1.6;
 }
 
 .new_arrivals_marker {
-    top: 43%;
+    top: 53%;
     left: 8%;
 }
 
@@ -389,13 +595,13 @@ line-height: 1.6;
 }
 
 .classics_marker {
-    top: 75%;
+    top: 80%;
     left: 52%;
 }
 
 .hidden_gems_marker {
-    top: 55%;
-    left: 23%;
+    top: 65%;
+    left: 25%;
 }
 
 .art_design_marker {
@@ -414,7 +620,7 @@ line-height: 1.6;
 }
 
 .books_for_collectors_marker {
-    top: 70%;
+    top: 90%;
     left: 83%;
 }
 
@@ -424,9 +630,30 @@ line-height: 1.6;
 }
 
 .coffee_vending_machine_marker {
-    top: 15%;
+    top: 19%;
     left: 9%;
 }
+
+.reading_lounge_marker {
+    top: 35%;
+    left: 49%;
+}
+
+.visitors_restroom_marker {
+    top: 82%;
+    left: 95%;
+}
+
+.audiobook_listening_area_marker {
+    top: 30%;
+    left: 75%;
+}
+
+.dog_eared_pages_marker {
+    top: 65%;
+    left: 6%;
+}
+
 .map_popup {
     position: absolute;
     display: none;
@@ -497,6 +724,25 @@ line-height: 1.6;
     left: 12%;
 }
 
+.reading_lounge_popup {
+    top: 36%;
+    left: 52%;
+}
+
+.visitors_restroom_popup {
+    top: 50%;
+    left: 64%;
+}
+
+.audiobook_listening_area_popup {
+    top: 20%;
+    left: 48%;
+}
+.dog_eared_pages_popup {
+    top: 35%;
+    left: 11%;
+}
+
 #rare_books:checked ~ .rare_books_popup {
     display: block;
 }
@@ -544,11 +790,58 @@ line-height: 1.6;
     display: block;
 }
 
- .checkbox img{
+#reading_lounge:checked ~ .reading_lounge_popup {
+    display: block;
+}
+
+#visitors_restroom:checked ~ .visitors_restroom_popup {
+    display: block;
+}
+
+#audiobook_listening_area:checked ~ .audiobook_listening_area_popup {
+    display: block;
+}
+
+#dog_eared_pages:checked ~ .dog_eared_pages_popup {
+    display: block;
+}
+
+.checkbox img{
     width: 336px;
     height: 250px;
     border-radius: 10%;
  }
+
+.map_container .checkbox {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.map_container .checkbox > div {
+    display: contents;
+}
+
+.map_container .checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.map_container .map_marker {
+    position: absolute;
+    z-index: 2;
+}
+
+.map_container .map_popup {
+    z-index: 10;
+}
 
 /*--about--*/
 .about_main{
@@ -567,6 +860,8 @@ line-height: 1.6;
     border: solid 2px rgb(1, 46, 27);
     background-color: rgb(251, 239, 198);
     text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .about_button:hover{
@@ -585,6 +880,8 @@ line-height: 1.6;
     border: solid 2px rgb(1, 46, 27);
     background-color: rgb(251, 239, 198);
     text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .about_button1:hover{
@@ -621,6 +918,8 @@ line-height: 1.6;
     color: rgb(251, 239, 198);
     border-radius: 10px;
     margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     color: rgb(1, 46, 27);
     border: solid 2px rgb(1, 46, 27);
     background-color: rgb(251, 239, 198);
@@ -651,6 +950,10 @@ line-height: 1.6;
 
 
 
+/* =========================
+   MOBILE
+   0px - 600px
+   ========================= */
 @media screen and (max-width: 600px) {
 
     /* =========================
@@ -990,9 +1293,55 @@ line-height: 1.6;
     line-height: 1.4;
 }
 
-/* =========================
-   ORDER PAGE
-   ========================= */
+/*--BOOKS PAGE--*/
+  .newcards {
+        gap: 10px;
+    }
+
+    .newcards > div {
+        flex: 0 0 calc((100% - 10px) / 2);
+        height: 480px;
+        padding: 10px;
+    }
+
+    .newcards button {
+        margin-top: 10px;
+        padding: 5px;
+        width: 100%;
+    }
+    .newcards img {
+        width: 100%;
+        height: 180px;
+        object-fit: contain;
+    }
+
+    .newcards h2 {
+        font-size: 16px;
+    }
+
+    .newcards p {
+        font-size: 12px;
+    }
+
+
+
+/*--SERVICES PAGE--*/
+.services-list {
+        padding: 0 10px;
+        overflow-x: auto;
+    }
+
+    .services-list table {
+        font-size: 14px;
+    }
+
+    .services-list th,
+    .services-list td {
+        padding: 10px 8px;
+        overflow-wrap: anywhere;
+    }
+
+/*--ORDER PAGE--*/
 
 .order {
     display: flex;
@@ -1098,7 +1447,7 @@ line-height: 1.6;
    TEXT BELOW CARDS
    ========================= */
 
-.text {
+.hero_text1 {
     position: relative;
 
     width: 100%;
@@ -1112,17 +1461,17 @@ line-height: 1.6;
     color: rgb(1, 46, 27);
 }
 
-.text h2,
-.text p {
+.hero_text1 h2,
+.hero_text1 p {
     color: rgb(1, 46, 27);
 }
 
-.text h2 {
+.hero_text1 h2 {
     font-size: 25px;
     line-height: 1.2;
 }
 
-.text p {
+.hero_text1 p {
     font-size: 16px;
     line-height: 1.6;
 }
@@ -1162,9 +1511,61 @@ line-height: 1.6;
 
         margin: 3px auto;
     }
+
+/* Fix map spacing on mobile */
+    .map_container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        line-height: 0;
+    }
+
+    .map_container > .mainimg {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .map_container > .checkbox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+    }
+
+    .map_container .checkbox > div {
+        display: contents;
+    }
+    /* MAP POPUPS — MOBILE */
+    .map_container .map_popup img {
+        display: none;
+    }
+
+    .map_container .map_popup {
+        width: min(260px, calc(100vw - 32px));
+        max-width: calc(100vw - 32px);
+        padding: 12px;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .map_container .map_popup h3 {
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 17px;
+    }
+
+    .map_container .map_popup p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.5;
+        overflow-wrap: anywhere;
+    }
 }
-
-
 
 
 /* =========================
@@ -1352,8 +1753,8 @@ footer {
         max-width: 100%;
         margin: 0;
         padding: 0;
-    }
 
+    }
 
     /* HOME HERO */
 
@@ -1399,4 +1800,42 @@ footer {
 
         box-sizing: border-box;
     }
+
+    /* Fix map spacing on tablet and mobile */
+   
+    .map_container {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        line-height: 0;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .map_container > .mainimg {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+
+    .map_container > .checkbox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    
 }
